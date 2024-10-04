@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+}
+.body{height: 100vh;
+    background: linear-gradient(to right bottom , #99efdb,#7feddd);
+   position: relative;
+}
+.cal{
+    width: 350px;
+    max-width: 400px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 15px;
+    margin-inline: 20px;
+    box-shadow: 3px 2px 5px 1px #6c6565;
+    top: 171px;
+    margin: auto;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    text-align: right;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    border:none;
+    border-radius: 8px;
+    background-color: #f2efef;
+}
+input ::placeholder{
+    color: black;
+    font-weight: 600;
+}
+.num1{
+    margin-right: 12px;
+   margin-bottom: 10px;
+   box-shadow: 3px 2px 5px 1px #dbd1d1;
+  border: none;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+#ac{
+    font-size: 20px;
+    background-color: #b7efd6dc;
+}
+#del{
+    font-size: 20px;
+    background-color: #9ae4f3dc;
+}
+.op{
+    background-color: #9ae4f3dc; 
+    padding-top: 9px;
+}
+#eq{
+    background-color: #bde0ff;
+}
